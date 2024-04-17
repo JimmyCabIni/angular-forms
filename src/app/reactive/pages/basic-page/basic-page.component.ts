@@ -21,6 +21,7 @@ export class BasicPageComponent implements OnInit {
   //   inStorage: new FormControl(0),
   // });
 
+  // Creación del formulario
   public myForm: FormGroup = this.fb.group({
     name: ['', [ Validators.required, Validators.minLength(3) ] ],
     price: [0, [ Validators.required, Validators.min(0)]],
