@@ -29,6 +29,7 @@ export class ValidatorsService {
     return form.controls[field].errors && form.controls[field].touched
   }
 
+  // Comparo el valor de los dos passwords
   public isFieldOneEqualFieldTwo(field1: string, field2: string) {
 
     return ( formGroup: FormGroup ): ValidationErrors | null => {
