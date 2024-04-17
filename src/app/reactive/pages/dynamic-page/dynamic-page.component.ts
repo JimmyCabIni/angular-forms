@@ -73,7 +73,7 @@ export class DynamicPageComponent {
     this.favoritesGames.removeAt(index);
   }
 
-
+  // Método final del form
   onSubmint():void {
 
     if ( this.myForm.invalid ) {
